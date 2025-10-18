@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png" alt="Awesome AI Agents using Google ADK" width="100%">
+</p>
+
 # 🤖 AI Agents Collection
 
 > A collection of production-ready AI agents built with Google Agent Development Kit (ADK) and Gemini
