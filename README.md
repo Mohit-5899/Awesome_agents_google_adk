@@ -139,7 +139,7 @@ This project is licensed under the MIT License - see individual agent directorie
 - 📚 **[Google ADK Documentation](https://google.github.io/adk-docs/)**
 - 💬 **[Reddit Community](https://www.reddit.com/r/agentdevelopmentkit/)**
 - 🐛 **[GitHub Issues](https://github.com/google/adk-python/issues)**
-- 📧 **Email**: your.email@example.com
+- 📧 **Email**: mohitmandawat16@gmail.com
 
 ---
 
