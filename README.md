@@ -22,6 +22,16 @@ ai-agents/
 │   ├── README.md
 │   └── ...
 │
+├── TradingAgents-ADK/         # 📊 Multi-Agent Trading Analysis
+│   ├── main.py
+│   ├── tradingagents/
+│   └── ...
+│
+├── ai-facedetector-agent/     # 👤 AI Face Detection Agent
+│   ├── main.py
+│   ├── facedetector/
+│   └── ...
+│
 └── [future-agent-projects]/    # More agents coming soon...
 ```
 
@@ -48,6 +58,52 @@ A comprehensive multi-agent system that researches AI news, analyzes financial d
 - Pydantic (structured output)
 
 **[→ View Project Details](./ai-news-podcast-agent/README.md)**
+
+---
+
+### [TradingAgents-ADK](./TradingAgents-ADK/)
+
+A comprehensive multi-agent trading analysis framework that coordinates 4 specialized analysts to provide comprehensive trading insights.
+
+**Features:**
+- 📊 4 specialized analyst agents (Market, News, Social, Fundamentals)
+- 📈 10 financial data tools with real-time market data
+- 🔄 Multi-vendor support (yfinance, Alpha Vantage)
+- 🎯 BUY/HOLD/SELL recommendations with detailed reasoning
+- 💾 ChromaDB-based memory system for learning
+- 🛠️ Complete technical indicator suite (RSI, MACD, Bollinger Bands)
+
+**Tech Stack:**
+- Google ADK
+- Gemini 2.0 Flash Experimental
+- yfinance & Alpha Vantage APIs
+- ChromaDB for memory
+- Pydantic for structured output
+
+**[→ View Project Details](./TradingAgents-ADK/README.md)**
+
+---
+
+### [AI Face Detector Agent](./ai-facedetector-agent/)
+
+A sophisticated face detection agent with natural language interface for intelligent face detection and analysis using MediaPipe.
+
+**Features:**
+- 👤 Advanced face detection with MediaPipe BlazeFace
+- 🗣️ Natural language conversational interface
+- 🎨 Automatic visualization with bounding boxes and keypoints
+- 🌐 Multiple input methods (local files, URLs, test images)
+- 📊 Confidence scores and detailed analysis
+- 🖼️ Supports JPEG, PNG, BMP, TIFF formats
+
+**Tech Stack:**
+- Google ADK
+- Gemini 2.0 Flash Experimental
+- MediaPipe Tasks
+- OpenCV for image processing
+- Pillow for image handling
+
+**[→ View Project Details](./ai-facedetector-agent/README.md)**
 
 ---
 
